@@ -380,7 +380,7 @@ with col1:
     from_date = st.date_input("From Date", value=date(1999, 1, 1), label_visibility="collapsed")
     st.caption("Start of period (Accident Date)")
 with col2:
-    to_date = st.date_input("To Date", value=date(3000, 12, 31), label_visibility="collapsed")
+    to_date = st.date_input("To Date", value=date(2026, 12, 31), label_visibility="collapsed")
     st.caption("End of period (Accident Date)")
 
 from_date = pd.to_datetime(from_date)
