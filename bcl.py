@@ -377,7 +377,7 @@ st.markdown("""
 
 col1, col2 = st.columns(2)
 with col1:
-    from_date = st.date_input("From Date", value=date(199, 1, 1), label_visibility="collapsed")
+    from_date = st.date_input("From Date", value=date(1999, 1, 1), label_visibility="collapsed")
     st.caption("Start of period (Accident Date)")
 with col2:
     to_date = st.date_input("To Date", value=date(3000, 12, 31), label_visibility="collapsed")
